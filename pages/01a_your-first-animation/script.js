@@ -1,4 +1,4 @@
-import gsap from "gsap";
+// import gsap from "gsap";
 
 gsap.to(".card", {
   opacity: 1,
@@ -21,3 +21,4 @@ gsap.to(".card", {
     });
   },
 });
+
