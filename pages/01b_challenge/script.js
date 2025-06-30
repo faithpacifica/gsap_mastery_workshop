@@ -6,6 +6,6 @@ gsap.to('.card', {
 	repeat: -1,
 	scale: 1,
 	yoyo: true,
-  opacity:1,
+  opacity:0,
 	ease: 'power1.inOut',
 });
