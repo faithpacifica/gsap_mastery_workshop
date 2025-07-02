@@ -37,7 +37,7 @@ fab.addEventListener('click', () => {
 				y: y,
 				opacity: 1,
 				rotate: 360,
-				duration: 0.2,
+				duration: 0.3,
 				easing: 'expo.out',
 			});
 		});
