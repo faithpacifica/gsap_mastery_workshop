@@ -28,7 +28,7 @@ card.addEventListener('mouseleave', () => {
 		gsap.to(card, {
 			duration: 0.6,
 			rotationY: 0,
-			ease: 'power2.inOut',
+			ease: 'power1.inOut',
 		});
 		flipped = false;
 	}
