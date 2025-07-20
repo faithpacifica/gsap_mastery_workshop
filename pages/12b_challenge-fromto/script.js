@@ -12,7 +12,7 @@ reactions.addEventListener('click', (e) => {
 		{
 			scale: 0.6,
 			rotationY: 0,
-			// y: "0px",
+			y: "0px",
 			opacity: 1,
 		},
 		{
@@ -21,12 +21,13 @@ reactions.addEventListener('click', (e) => {
 			rotationY: 180,
 			delay: 0.3,
       stagger: 0.5,
-			// y: "-120px",
+			y: "-120px",
 
 			ease: 'power2.out',
 			onComplete: () => {
 				// Restart the element's style so chiqib ketgach yana tiklanadi
 				gsap.set(el, { opacity: 0, stagger: 0.5, delay: 0.1 });
+				
 			},
 		}
 	);
