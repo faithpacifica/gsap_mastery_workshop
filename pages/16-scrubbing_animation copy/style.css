@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #0e0e0e;
+  color: #f0f0f0;
+  padding: 0% 50px;
+  overflow-x: hidden;
+  font-size: 1.5rem;
+}
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  gap: 20px;
+}
+.box {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #ff6f61, #ffc107);
+  border-radius: 12px;
+  flex-shrink: 0;
+}
