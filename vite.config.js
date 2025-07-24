@@ -67,15 +67,21 @@ export default defineConfig({
           __dirname,
           "pages/12b_challenge-fromto/index.html"
         ),
+
         "13a_learn-set": resolve(__dirname, "pages/13a_learn-set/index.html"),
+
         "13b_challenge-set": resolve(
           __dirname,
           "pages/13b_challenge-set/index.html"
         ),
+
         "14a_learn-timeline": resolve(
           __dirname,
           "pages/14a_learn-timeline/index.html"
         ),
+        '15_scroll': resolve(__dirname, 'pages/15_scroll/index.html'),
+        '16_scrubbing': resolve(__dirname, 'pages/16_scrubbing/index.html'),
+        '17_pinning': resolve(__dirname, 'pages/17_pinning/index.html'),
       },
     },
   },
