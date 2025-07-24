@@ -80,10 +80,12 @@ export default defineConfig({
 					'pages/14a_learn-timeline/index.html'
 				),
 				'15_scroll': resolve(__dirname, 'pages/15-scroll_animation/index.html'),
+
 				'16_scrubbing': resolve(
 					__dirname,
 					'pages/16-scrubbing_animation/index.html'
 				),
+        
 				'17_pinning': resolve(
 					__dirname,
 					'pages/17-pinning_animation/index.html'
